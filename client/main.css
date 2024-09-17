@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.section-products {}
+
+.tab-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-cards {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px 20px 0px;
+}
+
+
+
+.tab-link{
+    text-decoration: none;
+    color: rgb(0, 19, 22);
+    opacity: 0.8;
+    font-weight: thin;
+}
+
+.tab-link:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+.tab-link:active{
+    color: rgb(139, 139, 139);
+}
+
+
+
+
+
+
+
+
+
+
+
+.content-cards {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.content-card {
+    width: 220px;
+    background-color: rgb(255, 207, 253);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.content-card-img {
+    margin-bottom: 6px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.content-card-info{
+    width: 100%;
+}
+
+.content-card-title{
+    margin-bottom: 10px;
+}
+
+.content-card-info-price-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.content-card-price {
+}
+.content-card-buy-btn {
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(172, 19, 172);
+    border: none;
+}
